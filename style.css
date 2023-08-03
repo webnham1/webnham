@@ -236,7 +236,6 @@ nav h1 {
 	flex-direction: column;
    	align-items: center; 
    	justify-content: center;
-   	text-align: center;
 }
 
 #inleft3 {
@@ -267,7 +266,6 @@ nav h1 {
 	flex-direction: column;
    	align-items: center; 
    	justify-content: center;
-   	text-align: center;
 }
 
 .video_size3 {
@@ -286,11 +284,22 @@ nav h1 {
 
 #right3 {
 	flex: 33.33%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
 	height: 1750px;
-	position: relative;
 }
 
 #inright3 {
+	flex: 90%;
+	position: relative;
+}
+
+#inright3:hover {
+	background-color: white;
+}
+
+.container6 {
 	margin: 0;
   	position: absolute;
   	top: 50%;
@@ -299,8 +308,19 @@ nav h1 {
   	transform: translate(-50%, -50%);
 }
 
-#right3:hover {
-	background-color: white;
+#right3footer {
+	flex: 10%;
+	background-color: gainsboro;
+	display: table;
+}
+
+#right3footer:hover {
+	background-color: inherit;
+}
+
+#right3footer h1 {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 #right3 video {
