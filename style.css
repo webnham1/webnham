@@ -318,9 +318,11 @@ nav h1 {
 	background-color: inherit;
 }
 
-#right3footer h1 {
+#right3footer a {
 	display: table-cell;
 	vertical-align: middle;
+	color: black;
+	text-decoration: none;
 }
 
 #right3 video {
