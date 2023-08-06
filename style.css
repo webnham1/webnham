@@ -443,7 +443,16 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	flex: 25%;
 }
 
+.item5 {
+	text-align: center;
+	flex: 33.33%;
+}
+
 .item img {
+	height: 150px;
+}
+
+.item5 img {
 	height: 150px;
 }
 
@@ -553,6 +562,9 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.item4 {
 		flex: 50%;
 	}
+	.item5 {
+		flex: 100%;
+	}
     #down1 {
         flex-wrap: wrap;
     }
@@ -634,6 +646,9 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.item4 {
 		flex: 50%;
 	}
+	.item5 {
+		flex: 100%;
+	}
 	#left3 {
 		flex: 100%;
 	}
@@ -710,6 +725,9 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	}
 	.item4 {
 		flex: 50%;
+	}
+	.item5 {
+		flex: 100%;
 	}
 	.center-screen3 img {
 		height: 300px;
