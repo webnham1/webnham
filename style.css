@@ -767,3 +767,9 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 		display: initial;
 	}
 }
+
+.xasung a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
