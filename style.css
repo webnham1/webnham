@@ -729,6 +729,10 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.item5 {
 		flex: 100%;
 	}
+	.item5 img {
+		height: 150px;
+		width: 50%;
+	}
 	.center-screen3 img {
 		height: 300px;
 	}
