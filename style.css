@@ -527,14 +527,32 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 
 .container7 {
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+}
+
+.out6 {
+	flex: 25%;
+	position: relative;
+	height: 240px;
+	width: 100%;
 }
 
 .item6 {
-	flex: 25%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	text-align: center;
 }
 
-@media only screen and (max-width: 415px) {
+.item6 video {
+	height: 150px;
+	width: 100%;
+}
+
+@media (max-width: 415px) {
 	#left1 {
 		flex: 100%;
 	}
@@ -616,13 +634,6 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.test_br2 br {
 		display: initial;
 	}
-	.container7 {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.item6 {
-		flex: 100%;
-	}
 }
 
 @media only screen and (max-width: 480px) and (min-width: 416px) {
@@ -698,13 +709,6 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.test_br2 br {
 		display: initial;
 	}
-	.container7 {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.item6 {
-		flex: 50%;
-	}
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -769,13 +773,6 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.test_br2 br {
 		display: initial;
 	}
-	.container7 {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.item6 {
-		flex: 33.33%;
-	}
 }
 
 @media only screen and (max-width: 942px) and (min-width: 769px) {
@@ -800,11 +797,22 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.test_br1 br {
 		display: initial;
 	}
-	.container7 {
-		display: flex;
-		flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+	.out6 {
+		flex: 100%;
 	}
-	.item6 {
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 701px) {
+	.out6 {
+		flex: 50%;
+	}
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+	.out6 {
 		flex: 33.33%;
 	}
 }
