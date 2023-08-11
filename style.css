@@ -521,6 +521,15 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	display: none;
 }
 
+.container7 {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.item6 {
+	flex: 25%;
+}
+
 @media only screen and (max-width: 415px) {
 	#left1 {
 		flex: 100%;
@@ -603,6 +612,12 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.test_br2 br {
 		display: initial;
 	}
+	.container7 {
+		flex-wrap: wrap;
+	}
+	.item6 {
+		flex: 100%;
+	}
 }
 
 @media only screen and (max-width: 480px) and (min-width: 416px) {
@@ -678,6 +693,12 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.test_br2 br {
 		display: initial;
 	}
+	.container7 {
+		flex-wrap: wrap;
+	}
+	.item6 {
+		flex: 50%;
+	}
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -742,6 +763,12 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	.test_br2 br {
 		display: initial;
 	}
+	.container7 {
+		flex-wrap: wrap;
+	}
+	.item6 {
+		flex: 33.33%;
+	}
 }
 
 @media only screen and (max-width: 942px) and (min-width: 769px) {
@@ -765,6 +792,12 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	}
 	.test_br1 br {
 		display: initial;
+	}
+	.container7 {
+		flex-wrap: wrap;
+	}
+	.item6 {
+		flex: 33.33%;
 	}
 }
 
