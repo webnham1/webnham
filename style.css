@@ -817,6 +817,13 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	}
 }
 
+@media (max-width: 500px) {
+	video {
+		border: 1px solid black;
+		poster: "https://media.istockphoto.com/id/505684374/photo/quiet-moonlit-beach-in-maui-hawaii.jpg?s=612x612&w=0&k=20&c=sH6O-qa1tLqoIIwP6NYL46bw7cJM_QU2cpsz27C2r0Y=";
+	}
+}
+
 .xasung a {
 	text-decoration: none;
 	color: black;
