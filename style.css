@@ -817,7 +817,7 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
 	video {
 		border: 2px solid black;
 		background-position: center;
