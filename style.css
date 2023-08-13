@@ -585,13 +585,13 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 		flex: 100%;
 	}
 	.item1 {
-		flex: 50%;
+		flex: 100%;
 	}
 	.item2 {
-		flex: 50%;
+		flex: 100%;
 	}
 	.item4 {
-		flex: 50%;
+		flex: 100%;
 	}
 	.item5 {
 		flex: 100%;
@@ -669,13 +669,13 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 		flex: 100%;
 	}
 	.item1 {
-		flex: 50%;
+		flex: 100%;
 	}
 	.item2 {
-		flex: 50%;
+		flex: 100%;
 	}
 	.item4 {
-		flex: 50%;
+		flex: 100%;
 	}
 	.item5 {
 		flex: 100%;
