@@ -746,16 +746,16 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 		flex-direction: row;
 	}
 	.item {
-		flex: 50%;
+		flex: 33.33%;
 	}
 	.item1 {
-		flex: 50%;
+		flex: 33.33%;
 	}
 	.item2 {
-		flex: 50%;
+		flex: 33.33%;
 	}
 	.item4 {
-		flex: 50%;
+		flex: 33.33%;
 	}
 	.item5 {
 		flex: 100%;
