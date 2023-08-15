@@ -758,11 +758,11 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 		flex: 33.33%;
 	}
 	.item5 {
-		flex: 100%;
+		flex: 50%;
 	}
 	.item5 img {
 		height: 150px;
-		width: 50%;
+		width: 66.67%;
 	}
 	.center-screen3 img {
 		height: 300px;
@@ -792,11 +792,11 @@ table td:nth-child(odd):hover{background-color: #ddd;}
 		flex: 33.33%;
 	}
 	.item5 {
-		flex: 100%;
+		flex: 50%;
 	}
 	.item5 img {
 		height: 150px;
-		width: 50%;
+		width: 66.67%;
 	}
 	.center-screen3 img {
 		height: 400px;
